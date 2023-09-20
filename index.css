@@ -1,0 +1,16 @@
+Hiding Overflow CSS
+/*Image Overflow Hidden*/
+selector{
+    height: 400px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+ScrollBar Color CSS
+/*ScrollBar Design*/
+selector::-webkit-scrollbar{
+    width: 4px;
+    background: #777777;
+}
+selector::-webkit-scrollbar-thumb{
+    background: red;
+}
